@@ -499,7 +499,7 @@ The project includes a synthetic benchmark covering:
 - [x] Admin user management APIs.
 - [x] Streamlit interface.
 - [x] Retrieval and answerability evaluation suite.
-- [ ] Docker deployment.
+- [x] Docker deployment.
 - [ ] CI/CD pipeline.
 - [ ] Expanded automated testing.
 - [ ] Document-level permissions.
