@@ -1,0 +1,85 @@
+question,split,system,expected_sources,retrieved_sources,hit,recall,precision,mrr,all_found,latency
+How many annual leave days do employees receive?,dev,Semantic,hr_leave_policy.txt,"hr_leave_policy.txt, employee_handbook.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0055
+How many annual leave days do employees receive?,dev,Hybrid,hr_leave_policy.txt,"hr_leave_policy.txt, employee_handbook.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0052
+How many annual leave days do employees receive?,dev,Reranked,hr_leave_policy.txt,"hr_leave_policy.txt, expense_policy.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.5614
+Can employees work from home?,dev,Semantic,hr_leave_policy.txt,"employee_handbook.txt, hr_leave_policy.txt, security_policy.txt",1,1.0,0.3333333333333333,0.5,1,0.0015
+Can employees work from home?,dev,Hybrid,hr_leave_policy.txt,"employee_handbook.txt, hr_leave_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,0.5,1,0.0049
+Can employees work from home?,dev,Reranked,hr_leave_policy.txt,"hr_leave_policy.txt, employee_handbook.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.429
+When should employees report lost company laptops?,dev,Semantic,it_support.txt,"it_support.txt, security_policy.txt, employee_handbook.txt",1,1.0,0.3333333333333333,1.0,1,0.0014
+When should employees report lost company laptops?,dev,Hybrid,it_support.txt,"it_support.txt, security_policy.txt, employee_handbook.txt",1,1.0,0.3333333333333333,1.0,1,0.0041
+When should employees report lost company laptops?,dev,Reranked,it_support.txt,"it_support.txt, security_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4734
+How can employees reset passwords?,test,Semantic,it_support.txt,"it_support.txt, security_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0017
+How can employees reset passwords?,test,Hybrid,it_support.txt,"it_support.txt, security_policy.txt, employee_handbook.txt",1,1.0,0.3333333333333333,1.0,1,0.0042
+How can employees reset passwords?,test,Reranked,it_support.txt,"it_support.txt, security_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4706
+Can employees share company passwords?,dev,Semantic,security_policy.txt,"security_policy.txt, it_support.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0015
+Can employees share company passwords?,dev,Hybrid,security_policy.txt,"security_policy.txt, it_support.txt, employee_handbook.txt",1,1.0,0.3333333333333333,1.0,1,0.0042
+Can employees share company passwords?,dev,Reranked,security_policy.txt,"security_policy.txt, it_support.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4596
+Who should employees report security incidents to?,dev,Semantic,security_policy.txt,"security_policy.txt, incident_response.txt, it_support.txt",1,1.0,0.3333333333333333,1.0,1,0.0017
+Who should employees report security incidents to?,dev,Hybrid,security_policy.txt,"security_policy.txt, incident_response.txt, it_support.txt",1,1.0,0.3333333333333333,1.0,1,0.0045
+Who should employees report security incidents to?,dev,Reranked,security_policy.txt,"security_policy.txt, incident_response.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4483
+What are the company's office hours?,dev,Semantic,employee_handbook.txt,"employee_handbook.txt, hr_leave_policy.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0014
+What are the company's office hours?,dev,Hybrid,employee_handbook.txt,"employee_handbook.txt, access_policy.txt, expense_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.005
+What are the company's office hours?,dev,Reranked,employee_handbook.txt,"employee_handbook.txt, it_support.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4533
+How should employees mark attendance?,test,Semantic,employee_handbook.txt,"employee_handbook.txt, onboarding_policy.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0011
+How should employees mark attendance?,test,Hybrid,employee_handbook.txt,"employee_handbook.txt, travel_policy.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0038
+How should employees mark attendance?,test,Reranked,employee_handbook.txt,"employee_handbook.txt, onboarding_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4671
+Where should employees book official travel?,dev,Semantic,travel_policy.txt,"travel_policy.txt, hr_leave_policy.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0015
+Where should employees book official travel?,dev,Hybrid,travel_policy.txt,"travel_policy.txt, employee_handbook.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0055
+Where should employees book official travel?,dev,Reranked,travel_policy.txt,"travel_policy.txt, employee_handbook.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4234
+How many days before travel is manager approval required?,dev,Semantic,travel_policy.txt,"travel_policy.txt, onboarding_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0021
+How many days before travel is manager approval required?,dev,Hybrid,travel_policy.txt,"travel_policy.txt, hr_leave_policy.txt, expense_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0049
+How many days before travel is manager approval required?,dev,Reranked,travel_policy.txt,"travel_policy.txt, access_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3647
+Which flight class is allowed for domestic travel?,dev,Semantic,travel_policy.txt,"travel_policy.txt, access_policy.txt, security_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0011
+Which flight class is allowed for domestic travel?,dev,Hybrid,travel_policy.txt,"travel_policy.txt, employee_handbook.txt, expense_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0034
+Which flight class is allowed for domestic travel?,dev,Reranked,travel_policy.txt,"travel_policy.txt, access_policy.txt, incident_response.txt",1,1.0,0.3333333333333333,1.0,1,0.3874
+When must employees submit expense claims?,test,Semantic,expense_policy.txt,"expense_policy.txt, onboarding_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0011
+When must employees submit expense claims?,test,Hybrid,expense_policy.txt,"expense_policy.txt, hr_leave_policy.txt, procurement_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0047
+When must employees submit expense claims?,test,Reranked,expense_policy.txt,"expense_policy.txt, hr_leave_policy.txt, procurement_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.4028
+Above what amount are expense receipts mandatory?,dev,Semantic,expense_policy.txt,"expense_policy.txt, procurement_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0018
+Above what amount are expense receipts mandatory?,dev,Hybrid,expense_policy.txt,"expense_policy.txt, procurement_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0056
+Above what amount are expense receipts mandatory?,dev,Reranked,expense_policy.txt,"expense_policy.txt, procurement_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3569
+Who gives final approval for reimbursements?,dev,Semantic,expense_policy.txt,"expense_policy.txt, procurement_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0009
+Who gives final approval for reimbursements?,dev,Hybrid,expense_policy.txt,"expense_policy.txt, procurement_policy.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0038
+Who gives final approval for reimbursements?,dev,Reranked,expense_policy.txt,"expense_policy.txt, hr_leave_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3219
+When must new employees complete identity verification?,dev,Semantic,onboarding_policy.txt,"onboarding_policy.txt, employee_handbook.txt, security_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0011
+When must new employees complete identity verification?,dev,Hybrid,onboarding_policy.txt,"onboarding_policy.txt, security_policy.txt, employee_handbook.txt",1,1.0,0.3333333333333333,1.0,1,0.0039
+When must new employees complete identity verification?,dev,Reranked,onboarding_policy.txt,"onboarding_policy.txt, hr_leave_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3402
+How quickly does IT provide employee accounts?,test,Semantic,onboarding_policy.txt,"onboarding_policy.txt, employee_handbook.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.001
+How quickly does IT provide employee accounts?,test,Hybrid,onboarding_policy.txt,"onboarding_policy.txt, employee_handbook.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0031
+How quickly does IT provide employee accounts?,test,Reranked,onboarding_policy.txt,"onboarding_policy.txt, expense_policy.txt, it_support.txt",1,1.0,0.3333333333333333,1.0,1,0.3687
+When should employees attend company orientation?,dev,Semantic,onboarding_policy.txt,"onboarding_policy.txt, employee_handbook.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0014
+When should employees attend company orientation?,dev,Hybrid,onboarding_policy.txt,"onboarding_policy.txt, employee_handbook.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0049
+When should employees attend company orientation?,dev,Reranked,onboarding_policy.txt,"onboarding_policy.txt, employee_handbook.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3386
+Where should employees request restricted system access?,dev,Semantic,access_policy.txt,"access_policy.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0013
+Where should employees request restricted system access?,dev,Hybrid,access_policy.txt,"access_policy.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0049
+Where should employees request restricted system access?,dev,Reranked,access_policy.txt,"access_policy.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3435
+Who must approve restricted system access?,dev,Semantic,access_policy.txt,"access_policy.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0009
+Who must approve restricted system access?,dev,Hybrid,access_policy.txt,"access_policy.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0032
+Who must approve restricted system access?,dev,Reranked,access_policy.txt,"access_policy.txt, hr_leave_policy.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.2909
+How quickly must access be revoked after an employee leaves?,test,Semantic,access_policy.txt,"access_policy.txt, hr_leave_policy.txt, it_support.txt",1,1.0,0.3333333333333333,1.0,1,0.0012
+How quickly must access be revoked after an employee leaves?,test,Hybrid,access_policy.txt,"access_policy.txt, hr_leave_policy.txt, security_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0038
+How quickly must access be revoked after an employee leaves?,test,Reranked,access_policy.txt,"access_policy.txt, hr_leave_policy.txt, it_support.txt",1,1.0,0.3333333333333333,1.0,1,0.3712
+Where should P1 incidents be reported?,dev,Semantic,incident_response.txt,"incident_response.txt, security_policy.txt, it_support.txt",1,1.0,0.3333333333333333,1.0,1,0.0013
+Where should P1 incidents be reported?,dev,Hybrid,incident_response.txt,"incident_response.txt, security_policy.txt, employee_handbook.txt",1,1.0,0.3333333333333333,1.0,1,0.0038
+Where should P1 incidents be reported?,dev,Reranked,incident_response.txt,"incident_response.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.307
+How quickly must P1 incidents be acknowledged?,dev,Semantic,incident_response.txt,"incident_response.txt, onboarding_policy.txt, expense_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0014
+How quickly must P1 incidents be acknowledged?,dev,Hybrid,incident_response.txt,"incident_response.txt, onboarding_policy.txt, security_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0057
+How quickly must P1 incidents be acknowledged?,dev,Reranked,incident_response.txt,"incident_response.txt, security_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3612
+When must an incident postmortem be completed?,dev,Semantic,incident_response.txt,"incident_response.txt, it_support.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0013
+When must an incident postmortem be completed?,dev,Hybrid,incident_response.txt,"incident_response.txt, hr_leave_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0039
+When must an incident postmortem be completed?,dev,Reranked,incident_response.txt,"incident_response.txt, onboarding_policy.txt, access_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3572
+Where should employees submit purchase requests?,test,Semantic,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0012
+Where should employees submit purchase requests?,test,Hybrid,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0042
+Where should employees submit purchase requests?,test,Reranked,procurement_policy.txt,"procurement_policy.txt, hr_leave_policy.txt, expense_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3438
+When is vendor comparison required?,dev,Semantic,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0011
+When is vendor comparison required?,dev,Hybrid,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0037
+When is vendor comparison required?,dev,Reranked,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, onboarding_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3123
+Which purchases require CFO approval?,dev,Semantic,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.0012
+Which purchases require CFO approval?,dev,Hybrid,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, travel_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.005
+Which purchases require CFO approval?,dev,Reranked,procurement_policy.txt,"procurement_policy.txt, expense_policy.txt, hr_leave_policy.txt",1,1.0,0.3333333333333333,1.0,1,0.3024
+Who approves remote work and restricted system access?,dev,Semantic,"hr_leave_policy.txt, access_policy.txt","access_policy.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.6666666666666666,1.0,1,0.0013
+Who approves remote work and restricted system access?,dev,Hybrid,"hr_leave_policy.txt, access_policy.txt","access_policy.txt, security_policy.txt, hr_leave_policy.txt",1,1.0,0.6666666666666666,1.0,1,0.006
+Who approves remote work and restricted system access?,dev,Reranked,"hr_leave_policy.txt, access_policy.txt","access_policy.txt, hr_leave_policy.txt, travel_policy.txt",1,1.0,0.6666666666666666,1.0,1,0.3142
+How do employees reset passwords and report security incidents?,test,Semantic,"it_support.txt, security_policy.txt","security_policy.txt, it_support.txt, incident_response.txt",1,1.0,0.6666666666666666,1.0,1,0.0012
+How do employees reset passwords and report security incidents?,test,Hybrid,"it_support.txt, security_policy.txt","security_policy.txt, it_support.txt, incident_response.txt",1,1.0,0.6666666666666666,1.0,1,0.0044
+How do employees reset passwords and report security incidents?,test,Reranked,"it_support.txt, security_policy.txt","security_policy.txt, it_support.txt, incident_response.txt",1,1.0,0.6666666666666666,1.0,1,0.3249

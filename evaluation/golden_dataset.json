@@ -1,0 +1,348 @@
+[
+    {
+        "id": 1,
+        "question": "How many annual leave days do employees receive?",
+        "expected_answer": "18 days per year",
+        "expected_sources": [
+            "hr_leave_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 2,
+        "question": "Can employees work from home?",
+        "expected_answer": "Yes, with manager and HR approval",
+        "expected_sources": [
+            "hr_leave_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 3,
+        "question": "When should employees report lost company laptops?",
+        "expected_answer": "Within 2 hours",
+        "expected_sources": [
+            "it_support.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 4,
+        "question": "How can employees reset passwords?",
+        "expected_answer": "Using the company self-service portal",
+        "expected_sources": [
+            "it_support.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "test"
+    },
+    {
+        "id": 5,
+        "question": "Can employees share company passwords?",
+        "expected_answer": "No, password sharing is prohibited",
+        "expected_sources": [
+            "security_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 6,
+        "question": "Who should employees report security incidents to?",
+        "expected_answer": "The IT security team",
+        "expected_sources": [
+            "security_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 7,
+        "question": "What are the company's office hours?",
+        "expected_answer": "9 AM to 6 PM",
+        "expected_sources": [
+            "employee_handbook.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 8,
+        "question": "How should employees mark attendance?",
+        "expected_answer": "Employees must mark attendance daily",
+        "expected_sources": [
+            "employee_handbook.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "test"
+    },
+    {
+        "id": 9,
+        "question": "Where should employees book official travel?",
+        "expected_answer": "Company travel portal",
+        "expected_sources": [
+            "travel_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 10,
+        "question": "How many days before travel is manager approval required?",
+        "expected_answer": "At least 5 business days before travel",
+        "expected_sources": [
+            "travel_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 11,
+        "question": "Which flight class is allowed for domestic travel?",
+        "expected_answer": "Economy class",
+        "expected_sources": [
+            "travel_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 12,
+        "question": "When must employees submit expense claims?",
+        "expected_answer": "Within 10 calendar days of purchase",
+        "expected_sources": [
+            "expense_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "test"
+    },
+    {
+        "id": 13,
+        "question": "Above what amount are expense receipts mandatory?",
+        "expected_answer": "Above INR 500",
+        "expected_sources": [
+            "expense_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 14,
+        "question": "Who gives final approval for reimbursements?",
+        "expected_answer": "The Finance team",
+        "expected_sources": [
+            "expense_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 15,
+        "question": "When must new employees complete identity verification?",
+        "expected_answer": "On their first working day",
+        "expected_sources": [
+            "onboarding_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 16,
+        "question": "How quickly does IT provide employee accounts?",
+        "expected_answer": "Within 1 business day",
+        "expected_sources": [
+            "onboarding_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "test"
+    },
+    {
+        "id": 17,
+        "question": "When should employees attend company orientation?",
+        "expected_answer": "During their first week",
+        "expected_sources": [
+            "onboarding_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 18,
+        "question": "Where should employees request restricted system access?",
+        "expected_answer": "Through the IT ticket portal",
+        "expected_sources": [
+            "access_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 19,
+        "question": "Who must approve restricted system access?",
+        "expected_answer": "Reporting manager and system owner",
+        "expected_sources": [
+            "access_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 20,
+        "question": "How quickly must access be revoked after an employee leaves?",
+        "expected_answer": "Within 24 hours",
+        "expected_sources": [
+            "access_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "test"
+    },
+    {
+        "id": 21,
+        "question": "Where should P1 incidents be reported?",
+        "expected_answer": "Security Operations Center",
+        "expected_sources": [
+            "incident_response.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 22,
+        "question": "How quickly must P1 incidents be acknowledged?",
+        "expected_answer": "Within 15 minutes",
+        "expected_sources": [
+            "incident_response.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 23,
+        "question": "When must an incident postmortem be completed?",
+        "expected_answer": "Within 3 business days",
+        "expected_sources": [
+            "incident_response.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 24,
+        "question": "Where should employees submit purchase requests?",
+        "expected_answer": "Procurement portal",
+        "expected_sources": [
+            "procurement_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "test"
+    },
+    {
+        "id": 25,
+        "question": "When is vendor comparison required?",
+        "expected_answer": "For purchases above INR 50000",
+        "expected_sources": [
+            "procurement_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 26,
+        "question": "Which purchases require CFO approval?",
+        "expected_answer": "Purchases above INR 200000",
+        "expected_sources": [
+            "procurement_policy.txt"
+        ],
+        "answerable": true,
+        "category": "single_document",
+        "split": "dev"
+    },
+    {
+        "id": 27,
+        "question": "Who approves remote work and restricted system access?",
+        "expected_answer": "Remote work requires manager and HR approval. Restricted access requires reporting manager and system owner approval.",
+        "expected_sources": [
+            "hr_leave_policy.txt",
+            "access_policy.txt"
+        ],
+        "answerable": true,
+        "category": "multi_document",
+        "split": "dev"
+    },
+    {
+        "id": 28,
+        "question": "How do employees reset passwords and report security incidents?",
+        "expected_answer": "Reset passwords through the self-service portal and report security incidents to the IT security team.",
+        "expected_sources": [
+            "it_support.txt",
+            "security_policy.txt"
+        ],
+        "answerable": true,
+        "category": "multi_document",
+        "split": "test"
+    },
+    {
+        "id": 29,
+        "question": "What is the company's maternity leave policy?",
+        "expected_answer": "Information unavailable in the documents",
+        "expected_sources": [],
+        "answerable": false,
+        "category": "unanswerable",
+        "split": "dev"
+    },
+    {
+        "id": 30,
+        "question": "Does the company provide free office transportation?",
+        "expected_answer": "Information unavailable in the documents",
+        "expected_sources": [],
+        "answerable": false,
+        "category": "unanswerable",
+        "split": "dev"
+    },
+    {
+        "id": 31,
+        "question": "Who is the Prime Minister of India?",
+        "expected_answer": "Information unavailable in the documents",
+        "expected_sources": [],
+        "answerable": false,
+        "category": "unanswerable",
+        "split": "dev"
+    },
+    {
+        "id": 32,
+        "question": "Does the company reimburse home internet bills?",
+        "expected_answer": "Information unavailable in the documents",
+        "expected_sources": [],
+        "answerable": false,
+        "category": "unanswerable",
+        "split": "test"
+    }
+]

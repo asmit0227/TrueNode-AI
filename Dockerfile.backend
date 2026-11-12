@@ -1,0 +1,22 @@
+# Python base image
+FROM python:3.13-slim
+
+# Working directory
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.backend.txt .
+
+RUN pip install --no-cache-dir -r requirements.backend.txt
+
+# Copy backend code
+COPY backend/ ./backend/
+
+# Create data directories
+RUN mkdir -p data/uploads data/qdrant_db
+
+# Backend port
+EXPOSE 8000
+
+# Start FastAPI
+CMD ["python", "-m", "uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]

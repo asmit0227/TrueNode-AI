@@ -1,0 +1,170 @@
+question,answer,context,verdict
+How many annual leave days do employees receive?,Employees receive **18 days of annual leave per year**.,"NOVATECH SOLUTIONS
+HR LEAVE POLICY
+Version: 1.0
+Department: Human Resources
+
+1. Annual Leave
+
+Full-time employees receive 18 days of annual leave per year.
+
+2. Sick Leave
+
+Employees receive 10 days of paid sick leave annually.
+
+3. Leave Carry Forward
+
+Employees can carry forward a maximum of 10 unused
+annual leave days into the following calendar year.
+
+4. Leave Approval
+
+Employees must submit leave requests through the
+internal HR portal.
+
+",SUPPORTED
+How many sick leave days do employees receive?,Employees receive **10 days of paid sick leave** annually.,"NOVATECH SOLUTIONS
+HR LEAVE POLICY
+Version: 1.0
+Department: Human Resources
+
+1. Annual Leave
+
+Full-time employees receive 18 days of annual leave per year.
+
+2. Sick Leave
+
+Employees receive 10 days of paid sick leave annually.
+
+3. Leave Carry Forward
+
+Employees can carry forward a maximum of 10 unused
+annual leave days into the following calendar year.
+
+4. Leave Approval
+
+Employees must submit leave requests through the
+internal HR portal.
+
+",SUPPORTED
+Can employees work from home?,"Yes. Employees can work from home by requesting a remote‑work arrangement, which requires approval from their manager and the HR department.","4. Leave Approval
+
+Employees must submit leave requests through the
+internal HR portal.
+
+Leave requests require approval from the reporting manager.
+
+5. Emergency Leave
+
+Emergency leave requests must be communicated to
+the reporting manager as soon as reasonably possible.
+
+6. Remote Work
+
+Employees can request remote work arrangements
+with approval from their manager and HR department.
+
+",SUPPORTED
+How can employees reset passwords?,Employees can reset their passwords using the company self‑service portal.,"NOVATECH SOLUTIONS
+IT SUPPORT POLICY
+
+1. Lost Laptop Policy
+
+Employees must report lost company laptops
+to the IT department within 2 hours.
+
+2. Password Reset
+
+Employees can reset their passwords
+using the company self-service portal.
+
+3. IT Support
+
+Employees can contact the IT helpdesk
+for technical assistance.
+
+",SUPPORTED
+Can employees share company passwords?,No. Employees must not share company passwords.,"NOVATECH SOLUTIONS
+INFORMATION SECURITY POLICY
+
+1. Password Security
+
+Employees must not share company passwords.
+
+2. Security Incidents
+
+Employees must report security incidents
+to the IT security team immediately.
+
+3. Device Security
+
+All company laptops must use screen locks.
+
+4. Access Control
+
+Employees must request access permissions
+through their reporting manager.
+
+",SUPPORTED
+What are the company's office hours?,The company's office hours are **9 AM to 6 PM**.,"NOVATECH SOLUTIONS
+EMPLOYEE HANDBOOK
+
+1. Office Hours
+
+Employees work from 9 AM to 6 PM.
+
+2. Attendance
+
+Employees must mark attendance daily.
+
+3. Dress Code
+
+Employees should follow professional dress standards.
+
+4. Employee Support
+
+Employees can contact HR for workplace concerns.
+
+",SUPPORTED
+What is the company's maternity leave policy?,I could not find this information in the documents.,"NOVATECH SOLUTIONS
+HR LEAVE POLICY
+Version: 1.0
+Department: Human Resources
+
+1. Annual Leave
+
+Full-time employees receive 18 days of annual leave per year.
+
+2. Sick Leave
+
+Employees receive 10 days of paid sick leave annually.
+
+3. Leave Carry Forward
+
+Employees can carry forward a maximum of 10 unused
+annual leave days into the following calendar year.
+
+4. Leave Approval
+
+Employees must submit leave requests through the
+internal HR portal.
+
+",CORRECT_REFUSAL
+Who is the Prime Minister of India?,I could not find this information in the documents.,"4. Leave Approval
+
+Employees must submit leave requests through the
+internal HR portal.
+
+Leave requests require approval from the reporting manager.
+
+5. Emergency Leave
+
+Emergency leave requests must be communicated to
+the reporting manager as soon as reasonably possible.
+
+6. Remote Work
+
+Employees can request remote work arrangements
+with approval from their manager and HR department.
+
+",CORRECT_REFUSAL

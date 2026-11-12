@@ -1,0 +1,9 @@
+question,answer,answer_check,source_check,latency
+How many annual leave days do employees receive?,Employees receive **18 days of annual leave per year**.,True,True,1.82
+How many sick leave days do employees receive?,Employees receive **10 days** of paid sick leave annually.,True,True,0.89
+Can employees work from home?,"Yes. Employees can work from home by requesting a remote‑work arrangement, which requires approval from their manager and the HR department.",True,True,1.02
+How can employees reset passwords?,Employees can reset their passwords using the company self‑service portal.,True,True,0.86
+Can employees share company passwords?,No. Employees must not share company passwords.,True,True,0.98
+What are the company's office hours?,The company's office hours are **9 AM to 6 PM**.,True,True,1.02
+What is the company's maternity leave policy?,I could not find this information in the documents.,True,True,0.82
+Who is the Prime Minister of India?,I could not find this information in the documents.,True,True,0.72

@@ -1,0 +1,44 @@
+services:
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+
+    env_file:
+    - .env  
+
+    ports:
+      - "127.0.0.1:8000:8000"
+
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
+      - huggingface_cache:/root/.cache/huggingface
+
+    environment:
+      HF_HOME: /root/.cache/huggingface
+
+    restart: unless-stopped
+
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+
+    ports:
+      - "127.0.0.1:8501:8501"
+
+    environment:
+      API_URL: http://backend:8000
+      STREAMLIT_SERVER_MAX_UPLOAD_SIZE: "10"
+
+    depends_on:
+      - backend
+
+    restart: unless-stopped
+
+
+volumes:
+  huggingface_cache:

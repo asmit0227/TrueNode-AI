@@ -1,0 +1,36 @@
+question,split,expected_answerable,answer,sources,passed
+How many annual leave days do employees receive?,dev,True,Employees receive **18 days of annual leave per year**.,hr_leave_policy.txt,True
+Can employees work from home?,dev,True,"Yes. Employees can work from home by requesting a remote‑work arrangement, which requires approval from their manager and the HR department.",hr_leave_policy.txt,True
+When should employees report lost company laptops?,dev,True,Employees must report lost company laptops to the IT department within 2 hours.,it_support.txt,True
+How can employees reset passwords?,test,True,Employees can reset their passwords using the company self‑service portal.,it_support.txt,True
+Can employees share company passwords?,dev,True,No. Employees must not share company passwords.,security_policy.txt,True
+Who should employees report security incidents to?,dev,True,Employees should report security incidents to the IT security team.,security_policy.txt,True
+What are the company's office hours?,dev,True,The company's office hours are **9 AM to 6 PM**.,employee_handbook.txt,True
+How should employees mark attendance?,test,True,Employees are required to mark their attendance each day.,employee_handbook.txt,True
+Where should employees book official travel?,dev,True,Employees should book official travel using the company travel portal.,travel_policy.txt,True
+How many days before travel is manager approval required?,dev,True,Manager approval is required at least **5 business days** before travel.,travel_policy.txt,True
+Which flight class is allowed for domestic travel?,dev,True,Economy class is allowed for domestic travel.,travel_policy.txt,True
+When must employees submit expense claims?,test,True,Employees must submit expense claims within 10 calendar days of the purchase.,expense_policy.txt,True
+Above what amount are expense receipts mandatory?,dev,True,Expense receipts are mandatory for individual expenses above INR 500.,expense_policy.txt,True
+Who gives final approval for reimbursements?,dev,True,The Finance team provides the final approval for expense reimbursements.,expense_policy.txt,True
+When must new employees complete identity verification?,dev,True,New employees must complete identity verification on their first working day.,onboarding_policy.txt,True
+How quickly does IT provide employee accounts?,test,True,The IT department provides employee accounts within 1 business day.,onboarding_policy.txt,True
+When should employees attend company orientation?,dev,True,Employees should attend company orientation during their first week.,onboarding_policy.txt,True
+Where should employees request restricted system access?,dev,True,Employees should request restricted system access through the IT ticket portal.,access_policy.txt,True
+Who must approve restricted system access?,dev,True,Restricted system access must be approved by both the employee’s reporting manager and the system owner.,access_policy.txt,True
+How quickly must access be revoked after an employee leaves?,test,True,Access must be revoked within 24 hours after the employee’s departure.,access_policy.txt,True
+Where should P1 incidents be reported?,dev,True,P1 incidents should be reported to the Security Operations Center.,incident_response.txt,True
+How quickly must P1 incidents be acknowledged?,dev,True,P1 incidents must be acknowledged within **15 minutes**.,incident_response.txt,True
+When must an incident postmortem be completed?,dev,True,An incident postmortem must be completed within 3 business days.,incident_response.txt,True
+Where should employees submit purchase requests?,test,True,Employees should submit purchase requests through the procurement portal.,procurement_policy.txt,True
+When is vendor comparison required?,dev,True,"Vendor comparison is required for purchases exceeding INR 50,000.",procurement_policy.txt,True
+Which purchases require CFO approval?,dev,True,"Purchases exceeding INR 200,000 require CFO approval.",procurement_policy.txt,True
+Who approves remote work and restricted system access?,dev,True,"Restricted system access is approved by the employee’s reporting manager and the system owner.  
+The provided documents do not specify who approves remote work.",access_policy.txt,True
+How do employees reset passwords and report security incidents?,test,True,"Employees must report security incidents to the IT security team immediately.
+
+I could not find information in the documents about how employees reset passwords.",security_policy.txt,True
+What is the company's maternity leave policy?,dev,False,I could not find this information in the documents.,,True
+Does the company provide free office transportation?,dev,False,I could not find this information in the documents.,,True
+Who is the Prime Minister of India?,dev,False,I could not find this information in the documents.,,True
+Does the company reimburse home internet bills?,test,False,I could not find this information in the documents.,,True
