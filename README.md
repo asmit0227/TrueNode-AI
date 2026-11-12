@@ -501,11 +501,8 @@ The project includes a synthetic benchmark covering:
 - [x] Retrieval and answerability evaluation suite.
 - [x] Docker deployment.
 - [ ] CI/CD pipeline.
-- [ ] Expanded automated testing.
-- [ ] Document-level permissions.
-- [ ] Claim-level citation verification.
 - [ ] Production deployment.
-- [ ] Monitoring and observability.
+
 
 ---
 
