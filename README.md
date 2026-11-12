@@ -30,7 +30,7 @@ The project combines **Streamlit**, **FastAPI**, **Sentence Transformers**, **Qd
 
 ![Employee Management](screenshots/employee_management.png)
 
-> Add the screenshot files to the `screenshots/` directory using the filenames shown above. The images will render on GitHub when those files are present in the repository.
+
 
 ---
 
